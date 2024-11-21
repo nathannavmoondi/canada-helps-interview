@@ -27,7 +27,7 @@ export default function App() {
     <main>
       <h1>Nathan Nav Moondi - Canada Helps Interview</h1>
       <button className="switch-page" type="button" onClick={onStateChange}>
-        {page === PAGE_STATE.LIST ? "add Name" : "< back to list"}
+        {page === PAGE_STATE.LIST ? "Add Name" : "< back to list"}
       </button>
       {page === PAGE_STATE.LIST ? <List names={names} /> : <Form onSubmit={onSubmit} />} 
       {/* Passed in the onsubmit handler.  Not big fan of callbacks but easier than context api or react/redux */}
