@@ -9,7 +9,7 @@ enum PAGE_STATE { //to avoid "magic strings"
 }
 
 export default function App() {
-  const [page, setPage] = React.useState(PAGE_STATE.LIST); //current state
+  const [page, setPage] = React.useState<PAGE_STATE>(PAGE_STATE.LIST); //current state
   const [names, setNames] = React.useState<Name[]>([]); //array of Name types
 
   const onStateChange = () => { //change page state, render which component (avoid react routing)
