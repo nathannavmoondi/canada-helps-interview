@@ -25,7 +25,8 @@ export default function App() {
   //define what text and component to show using tenerrary operator
   return (
     <main>
-      <h2>Nathan Nav Moondi - Canada Helps Interview</h1>
+      <h2>Nathan Nav Moondi</h2>
+      <h2>Canada Helps Interview</h2>
       <button className="switch-page" type="button" onClick={onStateChange}>
         {page === PAGE_STATE.LIST ? "Add Name" : "< back to list"}
       </button>
