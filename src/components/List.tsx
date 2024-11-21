@@ -1,10 +1,13 @@
 import { Name } from "./Form";
 
+//define what is to be passesd in
 interface ListProps {
     names : Name[]
-  }
+}
   
-  export const List = (props: ListProps) => {
+//simple iterate over names, display.  Nothing amazing
+
+  export const List = (props: ListProps) => { //shoudl probably destructure here to avoid using props below
     return (
       <ul className="list-items">
         {props.names.map((name) => (
