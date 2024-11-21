@@ -30,5 +30,6 @@ export const Form = ( {onSubmit}: FormProps) => { //destructure
         <button>submit</button>
       </form>
     );
+   //todo: use bootstrap or tailwind so doewsn't look ugly
   };
   
