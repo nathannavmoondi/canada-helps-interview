@@ -4,7 +4,7 @@ Canada Helps React/TypeScript Interview
 
 1) I fixed code to remember and list names
 2) I added code describing what I did
-3) I deployed to Vercel
+3) I deployed to Vercel 
 
 https://canada-helps-interview.vercel.app
 
